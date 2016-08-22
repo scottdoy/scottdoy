@@ -1,0 +1,20 @@
+
+[about]
+    Name = "About"
+    Title = "About the Doyle Lab"
+    URL = "/about"
+
+[projects]
+    Name = "Projects"
+    Title = "Project listing"
+    URL = "/project"
+
+[posts]
+    Name = "Blog"
+    Title = "List of blog posts"
+    URL = "/post"
+
+[tags]
+    Name = "Tags"
+    Title = "Show list of tags"
+    URL = "/tags"

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Doyle Research Lab</title>
+    <link>http://www.buffalo.edu/~scottdoy/publication/</link>
+    <description>Recent content in Publications on Doyle Research Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Scott Doyle</copyright>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.buffalo.edu/~scottdoy/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Resolution Adaptive Deep Hierarchical (RADHicaL) Learning Scheme Applied to Nuclear Segmentation of Digital Pathology Images</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/janowczyk2016-resolution-adaptive-deep-learning/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/janowczyk2016-resolution-adaptive-deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantification of Tumor Morphology via 3D Histology: Application to Oral Cavity Cancers</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/doyle2016-quantification-of-tumor-morphology/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/doyle2016-quantification-of-tumor-morphology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content-Based Image Retrieval of Digitized Histopathology in Boosted Spectrally Embedded Spaces</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/sridhar2015-content-based-image-retrieval/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/sridhar2015-content-based-image-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biomedical Imaging Ontologies: A Survey and Proposal for Future Work</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/smith2015-biomedical-imaging-ontologies/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/smith2015-biomedical-imaging-ontologies/</guid>
+      <description>&lt;p&gt;Testes&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/project/ct-reconstruction/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/project/microvessel-reconstruction/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/project/occ-risk-score/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/home/about/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/publication/janowczyk2016-resolution-adaptive-deep-learning/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/publication/doyle2016-quantification-of-tumor-morphology/</loc>
+    <lastmod>2016-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/publication/sridhar2015-content-based-image-retrieval/</loc>
+    <lastmod>2015-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/publication/smith2015-biomedical-imaging-ontologies/</loc>
+    <lastmod>2015-06-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.buffalo.edu/~scottdoy/home/teaching/</loc>
+    <lastmod>2016-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doyle Research Lab</title>
+    <link>http://www.buffalo.edu/~scottdoy/</link>
+    <description>Recent content on Doyle Research Lab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Scott Doyle</copyright>
+    <lastBuildDate>Sun, 21 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.buffalo.edu/~scottdoy/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cadaver CT Scan Reconstruction and Quantification</title>
+      <link>http://www.buffalo.edu/~scottdoy/project/ct-reconstruction/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/project/ct-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microvessel Reconstruction</title>
+      <link>http://www.buffalo.edu/~scottdoy/project/microvessel-reconstruction/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/project/microvessel-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oral Cavity Cancer Risk Score</title>
+      <link>http://www.buffalo.edu/~scottdoy/project/occ-risk-score/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/project/occ-risk-score/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://www.buffalo.edu/~scottdoy/home/about/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-our-lab&#34;&gt;Welcome to our Lab!&lt;/h1&gt;
+
+&lt;p&gt;Our group is interested in the field of quantitative biology &amp;ndash; the use of
+computational tools to understand and advance biological sciences. Our primary
+goal is to develop methods to quantify, analyze, and detect patterns in
+biomedical data, particularly (but not exclusively!) data that comes from
+imaging modalities.&lt;/p&gt;
+
+&lt;p&gt;Our research revolves around three primary focuses:&lt;/p&gt;
+
+&lt;h3 id=&#34;i-class-fa-fa-cogs-aria-hidden-true-i-engineering-methods-development&#34;&gt;&lt;i class=&#34;fa fa-cogs&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Engineering Methods Development&lt;/h3&gt;
+
+&lt;p&gt;We take an engineering approach to biomedical problems. We develop tools for
+analyzing large datasets and images, building computational models to describe
+disease states, and building complex prediction algorithms to detect and
+diagnose disease. These tools generate new hypotheses to advance biological
+science.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-class-fa-fa-flask-aria-hidden-true-i-biological-systems-application&#34;&gt;&lt;i class=&#34;fa fa-flask&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Biological Systems Application&lt;/h3&gt;
+
+&lt;p&gt;The techniques we use can be applied to many fields; however, as biomedical
+scientists, our interest is in the complex world of biology and medicine. In the
+classroom, we are developing truly cross-disciplinary engineers and biologists
+capable not only of excelling in their fields but in communicating and
+collaborating with experts from across the academic world.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-class-fa-fa-hospital-o-aria-hidden-true-i-clinical-collaboration&#34;&gt;&lt;i class=&#34;fa fa-hospital-o&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Clinical Collaboration&lt;/h3&gt;
+
+&lt;p&gt;We believe that biomedical science research should inspire changes in clinical
+practice that improve patient care. To that end, we collaborate with clinical
+practitioners in the &lt;a href=&#34;http://www.kaleidahealth.org/&#34;&gt;Kaleida Health network&lt;/a&gt;
+across a wide variety of disciplines to share ideas and innovations, which in
+turn guide our research and development efforts.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-class-fa-fa-group-aria-hidden-true-i-we-are-recruiting&#34;&gt;&lt;i class=&#34;fa fa-group&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; We Are Recruiting!&lt;/h3&gt;
+
+&lt;p&gt;We are always looking for talented students and collaborators interested in
+machine learning, structure and functional modeling, image and volumetric
+analysis, and advancing clinical care through application of computational
+methods. If you would like to have a chat to discuss potential collaboration or
+mentorship opportunities, please &lt;a href=&#34;#contact&#34;&gt;drop a line&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Resolution Adaptive Deep Hierarchical (RADHicaL) Learning Scheme Applied to Nuclear Segmentation of Digital Pathology Images</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/janowczyk2016-resolution-adaptive-deep-learning/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/janowczyk2016-resolution-adaptive-deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantification of Tumor Morphology via 3D Histology: Application to Oral Cavity Cancers</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/doyle2016-quantification-of-tumor-morphology/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/doyle2016-quantification-of-tumor-morphology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content-Based Image Retrieval of Digitized Histopathology in Boosted Spectrally Embedded Spaces</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/sridhar2015-content-based-image-retrieval/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/sridhar2015-content-based-image-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biomedical Imaging Ontologies: A Survey and Proposal for Future Work</title>
+      <link>http://www.buffalo.edu/~scottdoy/publication/smith2015-biomedical-imaging-ontologies/</link>
+      <pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/publication/smith2015-biomedical-imaging-ontologies/</guid>
+      <description>&lt;p&gt;Testes&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>http://www.buffalo.edu/~scottdoy/home/teaching/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.buffalo.edu/~scottdoy/home/teaching/</guid>
+      <description>
+
+&lt;h3 id=&#34;biomedical-engineering&#34;&gt;Biomedical Engineering&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BME400/500: Special Topics, &amp;ldquo;Pattern Recognition for Biomedical Problems&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;pathology-and-anatomical-sciences&#34;&gt;Pathology and Anatomical Sciences&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quantitative Image Analysis for Histopathology&lt;/li&gt;
+&lt;li&gt;3D Anatomical Reconstruction and Feature Extraction&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+weight: 1
+title: "Engineering Approaches"
+description: >
+  <ul class="list-style-none">
+    <li>Machine Learning</li>
+    <li>Structural Morphology</li>
+    <li>Image Analysis</li>
+    <li>Modeling and Visualization</li>
+  </ul>
+image: "img/carousel/engineering.png"

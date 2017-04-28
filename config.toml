@@ -1,158 +1,149 @@
-# Base / Root URL of website
-baseurl = "http://www.buffalo.edu/~scottdoy/"
-
-# Website Base Settings
+baseurl = "https://www.buffalo.edu/"
 title = "Doyle Research Lab"
-copyright = "&copy; 2016 Scott Doyle"
 languageCode = "en-us"
-theme = "academic"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-# Enable analytics by entering your Google Analytics tracking ID
+# Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
-# Site Parameters
+# Define the number of posts per page
+paginate = 10
+
 [params]
-  name = "Quantitative Imaging and Machine Learning"
-  role = "Pathology and Anatomical Sciences; Biomedical Engineering"
-  organization = "University at Buffalo SUNY"
-  avatar = "portrait.png"
-  email = "scottdoy@buffalo.edu"
-  address = "208 Farber Hall, University at Buffalo SUNY, New York, 14241, USA."
-  phone = "716 829 2005"
+    viewMorePostLink = "/blog/"
+    author = "Scott Doyle"
+    style = "ub"
 
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Mon, Jan 2, 2006"
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
 
-  # Enable global LaTeX math rendering? If false, you can enable it locally on a per page basis.
-  math = false
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
 
-  # Enable native social sharing buttons?
-  sharing = true
+    email = "scottdoy@buffalo.edu"
 
-  # Link custom CSS and JS assets (relative to /static/css and /static/js respectively)
-  custom_css = []
-  custom_js  = []
+    about_us = "<p>Our lab uses <b>machine learning</b>, <b>3D modeling</b>, and <b>data visualization</b> to study biology and medicine. We develop methods with clinical and basic science applications. If this sounds exciting, please get in touch.</p>"
+    copyright = "Copyright (c) 2016, Scott Doyle; all rights reserved. This site is not reviewed, monitored, or endorsed by the University at Buffalo."
+    date_format = "2006-01-02"
+    logo = "img/logo.png"
+    address = """<p><strong>Doyle Laboratory</strong>
+        <br>208 Farber Hall
+        <br>3435 Main Street
+        <br>Buffalo, NY 14214
+        <br>USA
+      </p>
+      """
 
-  # Biography section.
-  # Section will only be displayed if `content/home/about.md` exists.
-  # [params.about]
-  #   interests = ["Digital Pathology", "Image Analytics", "Quantitative Biology", "Machine Learning", "Optimal Learning Strategies"]
-  #   str_interests = "Interests"
-  #   str_education = "Education"
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
 
-    # [[params.about.education]]
-    #   course = "PhD in Biomedical Engineering"
-    #   institution = "Rutgers University"
-    #   year = 2010
+[[params.menu]]
+    name = "Home"
+    url  = "/"
+    weight = 1
 
-    # [[params.about.education]]
-    #   course = "BSc in Biomedical Engineering"
-    #   institution = "Rutgers University"
-    #   year = 2006
+[[params.menu]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
 
-  # Selected Publications section.
-  # Section will only be displayed if there are publications with `selected = true` in their `+++` preamble.
-  [params.publications_selected]
-    detailed_list = true
-    title = "Selected Publications"
-    subtitle = ""
+[[params.menu]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 3
 
-  # Publications section.
-  # Section will only be displayed if there are publications in `content/publication/`.
-  [params.publications]
-    count = 10
-    detailed_list = false
-    title = "Recent Publications"
-    subtitle = ""
-    str_all = "More Publications"
+[[params.menu]]
+    name = "About"
+    url  = "/about/"
+    weight = 4
 
-  # Posts section.
-  # Section will only be displayed if there are posts in `content/post/`.
-  [params.posts]
-    count = 5
-    title = "Recent Posts"
-    subtitle = ""
-    str_all = "More Posts"
-    str_read_more = "Read more"
+[[params.menu]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 5
 
-  # Projects section.
-  # Section will only be displayed if there are projects in `content/project/`.
-  [params.projects]
-    title = "Projects"
-    subtitle = ""
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
 
-  # Contact section.
-  [params.contact]
+# Top Carousel
+#   All carousel items are defined in their own files. You can find example
+#   items at 'exampleSite/data/carousel'. For more informtion take a look at the
+#   README.
+[params.carousel]
     enable = true
-    title = "Contact"
-    subtitle = ""
-    autolink = true  # Automatically link email and phone?
 
-  # Social/Academic Networking
-  #
-  # Icon pack "fa" includes the following social network icons:
-  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus, youtube, instagram, soundcloud
-  #   For email icon, use "fa" icon pack, "envelope" icon, and "mailto:your@email.com" as the link.
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
-  #
-  # Icon pack "ai" includes the following academic network icons:
-  #   google-scholar, arxiv, orcid, researchgate, mendeley
-  #   Full list: https://jpswalsh.github.io/academicons/
+# Features of the Lab
+#    All features are defined in their own files. You can find example items
+#    at 'exampleSite/data/features'.
+#    For more informtion take a look at the README.
+[params.features]
+    enable = true
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:scottdoy@buffalo.edu"
+# Description of active lab projects
+# Project images should be put in 'static/img/projects'
+# Banner / header images should be 350x350
+# Images in the body of the document should be 1000x300
+[params.projects]
+    enable = true
+    title = "Active Research Projects"
+    subtitle = "Our research projects cover a wide range of disciplines. Click to learn more."
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/scottdoyle"
+# Ad for top 4 recent posts
+# Blog banner images should be 1000x750 JPG files (or whatever files)
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "On our blog, we collect news from our lab, developments in the field, and technical information we think might be helpful."
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.com/citations?hl=en&user=Ow3VPjYAAAAJ"
+# Team Section (https://github.com/digitalcraftsman/hugo-agency-theme)
+#   All team member's pictures are stored under 'static/img/team'. Suggestion:
+#   Image size should be at least 360px*360px or the alignment might be
+#   affected.
+[params.team]
+  enable = true
+  #center = true
+  title = "Doyle Lab Members"
+  subtitle = ""# "Meet the team of talented, passionate scientists in our research group."
+  description = "We are recruiting! If you are passionate about your work and are interested in our field, please get in touch!"
 
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fa"
-    link = "//github.com/scottdoy"
+#[params.testimonials]
+#    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+#    title = "Testimonials"
+#    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
+#[params.see_more]
+#    enable = false
+#    icon = "fa fa-file-code-o"
+#    title = "Do you want to see more?"
+#    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+#    link_url = "#"
+#    link_text = "Check other homepages"
 
-# Navigation Links
-#   The weight parameter defines the order that the links will appear in.
-
-[[menu.main]]
-  name = "Home"
-  url = "#top"
-  weight = 1
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications"
-  weight = 2
-
-#[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 3
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
-
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+# Possibly use this for a "Teaching" section
+#    All clients are defined in their own files. You can find example items at
+#    'exampleSite/data/clients'. For more informtion take a look at the README.
+#    Put client logos into 'static/img/clients'
+#[params.clients]
+#    enable = false
+#    title = "Teaching"
+#    subtitle = ""

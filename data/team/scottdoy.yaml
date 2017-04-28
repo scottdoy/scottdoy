@@ -1,0 +1,21 @@
+weight: 1
+image: "scottdoy.jpg"
+name: "Scott Doyle"
+position: "Principal Investigator"
+department: [
+     "Pathology and Anatomical Sciences",
+     "Biomedical Engineering"
+     ]
+#livesIn: ""
+#scope: [
+#    "UX for [member dashboard](#)",
+#    "Maintainer for [awesome-project](#)",
+#    "Open Source [community management](#)"
+#    ]
+#bio: >
+#     Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+#      She worked at Pied Piper for years until they went belly up.
+social: [
+    ["fa-envelope", "#"],
+    ["fa-linkedin", "#"]
+]

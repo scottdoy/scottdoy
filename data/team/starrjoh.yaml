@@ -1,0 +1,11 @@
+weight: 4
+image: ""
+name: "Starr Johnson"
+position: "BS Student, Junior"
+department: [
+     "Pathology and Anatomical Sciences"
+     ]
+social: [
+    ["fa-envelope", "#"],
+    ["fa-linkedin", "#"]
+]

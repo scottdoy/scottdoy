@@ -1,0 +1,4 @@
+weight: 1
+name: "Engineering"
+icon: "fa fa-cogs"
+description: "In our lab, we build tools to analyze very large datasets. These tools include state-of-the-art Machine learning, data visualization, and multi-dimensional modeling."

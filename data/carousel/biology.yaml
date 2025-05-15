@@ -1,9 +1,0 @@
-weight: 2
-title: "Biological Applications"
-description: >
-  <ul class="list-style-none">
-     <li>Cancer Growth</li>
-     <li>Microbiome Invasion</li>
-     <li>Anatomical Modeling</li>
-   </ul>
-image: "img/carousel/biology.png"
